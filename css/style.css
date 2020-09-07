@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    padding-top: 30px;
+    background-color: #24282f;
+}
+.container{
+    margin:auto;
+    max-width:1094px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    margin-left: 52px;
+}
+header nav ul li a{
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+header nav ul li:after{
+    content: "";
+    display: block;
+    margin-top: 33px;
+    width: 0;
+    height: 2px;
+    background-color:#b5a263;
+    transition: 0.2s;
+}
+header nav ul li:hover:after{
+    width: 100%;
+}
