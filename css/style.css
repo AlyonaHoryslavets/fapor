@@ -32,7 +32,7 @@ header nav ul li:after{
     margin-top: 33px;
     width: 0;
     height: 2px;
-    background-color:#b5a263;
+    background-color:black;
     transition: 0.2s;
 }
 header nav ul li:hover:after{
