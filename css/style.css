@@ -4,6 +4,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body{
+    background-color: white;
+}
 header{
     padding:30px 15px 0;
     background-color: #24282f;
@@ -28,6 +31,7 @@ header nav ul li a{
     font-size: 11px;
     text-transform: uppercase;
 }
+/* hover and after for nav*/
 header nav ul li:after{
     content: "";
     display: block;
@@ -45,15 +49,70 @@ header nav ul li:hover:after{
     background-size: cover;
     padding-top:71px;
     padding-bottom: 85px;
+    color:#ffffff;
 }
 .about h1{
-    font-size: 31px;
-    color: #ffffff;
+    font-size: 32px;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 .about p{
     font-size: 11px;
-    color:#ffffff;
 
+}
+.management{
+    padding: 121px 15px 24px;
+}
+.management .container{
+    margin: auto;
+    max-width: 860px;
+}
+
+.management h2{
+    font-size: 19px;
+    color: #24282f;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 52px;
+}
+.management h2:after{
+    content: "";
+    display: block;
+    color: #b5a263;
+    height: 3px;
+    width: 61px;
+    margin-top: 23px;
+    margin: auto;
+}
+.workers{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+.management h4{
+    font-size:13px;
+    color: #232323;
+    margin-bottom: 8px;
+}
+.management h5{
+    font-size: 11px;
+    color: #b5a263;
+}
+.management h4 h5{
+    padding-left: 8px;
+}
+.workers img{
+    margin-bottom: 24px;
+}
+.more_info{
+    text-align: center;
+}
+.more_info a{
+    text-align: center;
+    padding: 14px 33px;
+    font-size:13px;
+    color: #24282f;
+    text-transform: uppercase;
+    border-radius: 30%;
+    border: solid 2px #7c7e82;
 }
