@@ -78,11 +78,11 @@ header nav ul li:hover:after{
 .management h2:after{
     content: "";
     display: block;
-    color: #b5a263;
+    background-color: #b5a263;
     height: 3px;
     width: 61px;
-    margin-top: 23px;
     margin: auto;
+    margin-top: 23px;
 }
 .workers{
     display: flex;
@@ -113,6 +113,6 @@ header nav ul li:hover:after{
     font-size:13px;
     color: #24282f;
     text-transform: uppercase;
-    border-radius: 30%;
+    border-radius: 40px;
     border: solid 2px #7c7e82;
 }
